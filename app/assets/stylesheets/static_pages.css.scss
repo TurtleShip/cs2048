@@ -1,3 +1,76 @@
 // Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
+// They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+
+.faq {
+  //background-color: $grayDarker;
+  background-color: $grayLighter;
+
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  height: auto;
+
+
+  .question {
+    color: $grayDarker;
+
+    font-size: 2.5em;
+    letter-spacing: -2px;
+
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .answer {
+    background-color: $grayLighter;
+
+    font-size: 1em;
+
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+}
+
+.hero-unit {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+
+    .title {
+      font-size: 2em;
+      width: auto;
+      height: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.profile-holder {
+
+  #profile-tim {
+    background-color: blue;
+    width: 300px;
+  }
+
+  #profile-seulgi {
+    background-color: green;
+  }
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+}
